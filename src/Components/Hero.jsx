@@ -26,12 +26,12 @@ const Hero = () => {
 
         {/* Text and Button */}
         <div className="w-full text-center text-white px-4">
-          <h2 className="text-3xl sm:text-4xl md:text-[50px] font-bold leading-tight mb-6">
-            Give Your{' '}
+          <h2 className="text-3xl sm:text-4xl md:text-[45px] font-bold leading-loose mb-6">
+            GIVE YOUR{' '}
             <span className="text-primary">
-              Little One the Best Care
+              LITTLE ONE THE BEST CARE
             </span>{' '}
-            with Our Safe and Trusted Baby Products
+           WITH OUR SAFE AND TRUSTED BABY PRODUCTS
           </h2>
           <button className="px-6 py-3 bg-primary text-gray-700 rounded-full text-lg font-medium hover:bg-colorThree hover:text-white transition duration-300 shadow-md">
             Shop Now

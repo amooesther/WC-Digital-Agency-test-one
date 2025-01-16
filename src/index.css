@@ -1,17 +1,16 @@
 /* src/index.css or src/styles.css */
-@import url('https://fonts.googleapis.com/css2?family=Quirky+Spring&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quirky+Spring&family=Open+Sans&display=swap');
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
-  body {
-    font-family: 'Quirky Spring', sans-serif;
-  }
+/* Apply Quirky Spring font only to h1, h2, h3, h4 */
+h1, h2, h3, h4 {
+  font-family: 'Quirky Spring', cursive;
+}
 
-  
-  h1, h2, h3, h4 {
-    font-family: 'Quirky Spring', sans-serif;
-  }
+/* Apply Open Sans font to the rest of the body text */
+body {
+  font-family: 'Open Sans', sans-serif;
 }
